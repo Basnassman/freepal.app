@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css'; // يمكنك إنشاؤه أو تجاهله إذا لم يكن موجودًا
+import './index.css'; // اختياري
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
