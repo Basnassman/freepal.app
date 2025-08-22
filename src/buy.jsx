@@ -1,4 +1,4 @@
-// Buy.jsx
+// buy.jsx
 import React, { useState, useEffect } from "react";
 import { Connection, PublicKey } from "@solana/web3.js";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
