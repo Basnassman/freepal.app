@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // استيراد الصفحات
 import Home from "./Home";
 import buy from "./buy";
-import Whitepaper from "./Whitepaper";
-import Airdrop from "./Airdrop";
-import HowToBuy from "./HowToBuy";
+import whitepaper from "./Whitepaper";
+import airdrop from "./Airdrop";
+import howToBuy from "./HowToBuy";
 
 function App() {
   return (
