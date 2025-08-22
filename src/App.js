@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="/whitepaper" element={<whitepaper />} />
-        <Route path="/airdrop" element={<airdropirdrop />} />
+        <Route path="/airdrop" element={<airdrop />} />
         <Route path="/howtobuy" element={<howToBuy />} />
         {/* يمكن إضافة صفحة الفريق لاحقاً */}
       </Routes>
