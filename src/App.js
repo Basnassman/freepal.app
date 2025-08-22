@@ -15,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/buy" element={<Buy />} />
-        <Route path="/whitepaper" element={<Whitepaper />} />
-        <Route path="/airdrop" element={<Airdrop />} />
-        <Route path="/howtobuy" element={<HowToBuy />} />
+        <Route path="/whitepaper" element={<whitepaper />} />
+        <Route path="/airdrop" element={<airdropirdrop />} />
+        <Route path="/howtobuy" element={<howToBuy />} />
         {/* يمكن إضافة صفحة الفريق لاحقاً */}
       </Routes>
     </Router>
