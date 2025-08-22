@@ -1,22 +1,28 @@
-// App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Navbar from "./Navbar";  // استدعاء النافبار
 
-// استيراد الصفحات
+// الصفحات
 import Home from "./Home";
-import buy from "./buy";
-
+import Buy from "./Buy";
+import Whitepaper from "./Whitepaper";
+import Airdrop from "./Airdrop";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/buy" element={<buy />} />
-        {/* يمكن إضافة صفحة الفريق لاحقاً */}
-      </Routes>
-    </Router>
-  );
-}
+      <Router>
+            <div className="App">
+                    <Navbar />   {/* النافبار يطلع دائمًا فوق */}
 
-export default App;
+                            <Routes>
+                                      <Route path="/" element={<Home />} />
+                                                <Route path="/buy" element={<Buy />} />
+                                                          <Route path="/whitepaper" element={<Whitepaper />} />
+                                                                    <Route path="/airdrop" element={<Airdrop />} />
+                                                                            </Routes>
+                                                                                  </div>
+                                                                                      </Router>
+                                                                                        );
+                                                                                        }
+
+                                                                                        export default App;
