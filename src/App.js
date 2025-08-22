@@ -7,7 +7,7 @@ import Home from "./Home";
 import buy from "./buy";
 import whitepaper from "./whitepaper";
 import airdrop from "./airdrop";
-import howToBuy from "./howToBuy";
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
         <Route path="/buy" element={<Buy />} />
         <Route path="/whitepaper" element={<whitepaper />} />
         <Route path="/airdrop" element={<airdrop />} />
-        <Route path="/howtobuy" element={<howToBuy />} />
         {/* يمكن إضافة صفحة الفريق لاحقاً */}
       </Routes>
     </Router>
